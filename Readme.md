@@ -1,3 +1,5 @@
+How to test that
+
 Use the simplex method to solve the following LP problem. 
 Maximize Z = 3x1 + 5x2 + 4x3 
 Subject to the constraints 
