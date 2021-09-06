@@ -24,13 +24,6 @@ def Maximization():
     e_values[0] = 1
     for i in range(number_of_inequalities):
         values_list = []
-        f = open("test.txt", "r")
-        for value in f:
-            print("Biến x ", value, "của hàng thứ", value)
-            value = float(input())
-            values_list.append(value)
-        values_list = []
-        f = open("test.txt", "r")
         for j in range(number_of_variables):
             print("Biến x ",j+1,"của hàng thứ",i + 1)
             value = float(input())
@@ -48,7 +41,6 @@ def Maximization():
         matrix_list.append(values_list)
     # Hiện Thị Ma Trận Vừa Nhập
     print(matrix_list)
-
     coeff_z_array = np.array(list)
     matrix = np.array(matrix_list, dtype=float)
     vr_coeff_array = np.zeros(number_of_inequalities, dtype=float)
@@ -89,3 +81,4 @@ def Maximization():
 
 print("Simple Method")
 Maximization()
+# Test Sucess
