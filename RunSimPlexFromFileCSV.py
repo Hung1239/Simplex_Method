@@ -14,7 +14,7 @@ def Maximization():
     cf = open("c.csv", "r")
     for c in cf:
         list.append(int(c))
-    #print(list)
+    print(list)
     #number_of_inequalities = int(input())
     #list.extend(np.zeros(number_of_inequalities).tolist())
     list.extend(np.zeros(3).tolist())
